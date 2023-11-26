@@ -2,6 +2,7 @@ import logoColor from "./logo-color.svg";
 import logoWhite from "./logo-white.svg";
 import logoBlack from "./logo-black.svg";
 import logoNoBackground from "./logo-no-background.svg";
+import KCLogo from "./KCLogo.svg";
 
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -55,6 +56,7 @@ export {
   logoWhite,
   logoBlack,
   logoNoBackground,
+  KCLogo,
   backend,
   creator,
   mobile,
