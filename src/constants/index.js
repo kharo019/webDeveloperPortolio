@@ -19,7 +19,6 @@
 		docker,
 		java,
 		python,
-		c,
 		cpp,
 		aws,
 		mySQL,

@@ -34,7 +34,6 @@ import threejs from "./tech/threejs.svg";
 
 import python from "./tech/python.webp";
 import aws from "./tech/aws.png";
-import c from "./tech/c.svg";
 import cpp from "./tech/cpp.png";
 import java from "./tech/java.png";
 import mySQL from "./tech/mySQL.webp";
@@ -86,7 +85,6 @@ export {
   threejs,
   python,
   aws,
-  c,
   cpp,
   java,
   mySQL,
