@@ -11,6 +11,8 @@ import web from "./web.png";
 import github from "./github.png";
 import website from "./website.webp";
 import website1 from "./website1.webp";
+import Scallywags from "./Scallywags.png";
+import AWS from "./AWS.jpeg";
 
 
 import menu from "./menu.svg";
@@ -54,6 +56,7 @@ import restaurant from "./gericht.png";
 import OldWebPortfolio from "./OldWebPortfolio.png";
 import AggieCompiler from "./AggieCompiler1.png";
 import ACI from "./ACI1.png";
+import DB from "./database.webp";
 
 export {
   logoColor,
@@ -100,9 +103,12 @@ export {
   OldWebPortfolio,
   AggieCompiler,
   ACI,
+  AWS,
+  DB,
 
   website,
   website1,
+  Scallywags,
 
   carrent,
   jobit,
