@@ -148,10 +148,10 @@
 			name: "Python",
 			icon: python,
 		},
-		{
-			name: "C",
-			icon: c,
-		},
+		// {
+		// 	name: "C",
+		// 	icon: c,
+		// },
 		{
 			name: "C++",
 			icon: cpp,
