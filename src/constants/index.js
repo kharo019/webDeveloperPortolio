@@ -37,6 +37,9 @@
 		gpt3,
 		restaurant,
 		bank,
+		OldWebPortfolio,
+		AggieCompiler,
+		ACI,
 
 		website,
 
@@ -67,11 +70,11 @@
 			visit: "https://github.com/kharo019",
 			title: "Github"
 		},{
-			visit: "https://www.linkedin.com/in/kevin-haro-515283207/",
+			visit: "https://profile.indeed.com/?hl=en_US&co=US&from=gnav-jobseeker-profile--profile-one-frontend",
 			title: "Indeed",
 		},
 		{
-			visit: "https://profile.indeed.com/?hl=en_US&co=US&from=gnav-jobseeker-profile--profile-one-frontend",
+			visit: "https://www.linkedin.com/in/kevin-haro-515283207/",
 			title: "LinkedIn",
 		}
 	];
@@ -86,13 +89,15 @@
 			icon: web,
 		},
 		{
-			title: "React Native Developer",
-			icon: mobile,
-		},
-		{
 			title: "Backend Developer",
 			icon: backend,
 		},
+		{
+			title: "Software Developer",
+			icon: mobile,
+		},
+		
+		
 		
 	];
 
@@ -101,14 +106,14 @@
 
 
 	const technologies = [
-		{
-			name: "HTML 5",
-			icon: html,
-		},
-		{
-			name: "CSS 3",
-			icon: css,
-		},
+		// {
+		// 	name: "HTML 5",
+		// 	icon: html,
+		// },
+		// {
+		// 	name: "CSS 3",
+		// 	icon: css,
+		// },
 		{
 			name: "JavaScript",
 			icon: javascript,
@@ -183,45 +188,45 @@ const experiences = [
 		],
 	},
 	// Start comment here!!
-	{
-	title: "React Native Developer",
-	company_name: "Tesla",
-	icon: tesla,
-	iconBg: "#E6DEDD",
-	date: "Jan 2021 - Feb 2022",
-	points: [
-		"Developing and maintaining web applications using React.js and other related technologies.",
-		"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-		"Implementing responsive design and ensuring cross-browser compatibility.",
-		"Participating in code reviews and providing constructive feedback to other developers.",
-	],
-	},
-	{
-	title: "Web Developer",
-	company_name: "Shopify",
-	icon: shopify,
-	iconBg: "#383E56",
-	date: "Jan 2022 - Jan 2023",
-	points: [
-		"Developing and maintaining web applications using React.js and other related technologies.",
-		"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-		"Implementing responsive design and ensuring cross-browser compatibility.",
-		"Participating in code reviews and providing constructive feedback to other developers.",
-	],
-	},
-	{
-	title: "Full stack Developer",
-	company_name: "Meta",
-	icon: meta,
-	iconBg: "#E6DEDD",
-	date: "Jan 2023 - Present",
-	points: [
-		"Developing and maintaining web applications using React.js and other related technologies.",
-		"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-		"Implementing responsive design and ensuring cross-browser compatibility.",
-		"Participating in code reviews and providing constructive feedback to other developers.",
-	],
-	},
+	// {
+	// title: "React Native Developer",
+	// company_name: "Tesla",
+	// icon: tesla,
+	// iconBg: "#E6DEDD",
+	// date: "Jan 2021 - Feb 2022",
+	// points: [
+	// 	"Developing and maintaining web applications using React.js and other related technologies.",
+	// 	"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+	// 	"Implementing responsive design and ensuring cross-browser compatibility.",
+	// 	"Participating in code reviews and providing constructive feedback to other developers.",
+	// ],
+	// },
+	// {
+	// title: "Web Developer",
+	// company_name: "Shopify",
+	// icon: shopify,
+	// iconBg: "#383E56",
+	// date: "Jan 2022 - Jan 2023",
+	// points: [
+	// 	"Developing and maintaining web applications using React.js and other related technologies.",
+	// 	"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+	// 	"Implementing responsive design and ensuring cross-browser compatibility.",
+	// 	"Participating in code reviews and providing constructive feedback to other developers.",
+	// ],
+	// },
+	// {
+	// title: "Full stack Developer",
+	// company_name: "Meta",
+	// icon: meta,
+	// iconBg: "#E6DEDD",
+	// date: "Jan 2023 - Present",
+	// points: [
+	// 	"Developing and maintaining web applications using React.js and other related technologies.",
+	// 	"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+	// 	"Implementing responsive design and ensuring cross-browser compatibility.",
+	// 	"Participating in code reviews and providing constructive feedback to other developers.",
+	// ],
+	// },
 	// end comment here 
 	];
 
@@ -265,7 +270,7 @@ const experiences = [
 		{
 			name: "Old Web Developer Protofolio",
 			description:
-				"By using React.js && Tailwind CSS, I created a modern UI/UX of a fictional bank. This is my first project using TailWind CSS and seeing the differences of using purely React and TailWind has opened my eyes in the different ways a website can be designed.",
+				"By using React.js && JavaScript, I created a portoflio as my resume and to put my web developing skills to the test. This is an unfinished project as I didn't like the very little innovation I put in and decided to make another with a 3-D twist on my web developer portfolio.",
 			tags: [
 				{
 				name: "React",
@@ -273,21 +278,18 @@ const experiences = [
 				},
 				{
 				name: "JavaScript",
-				color: "green-text-gradient",
+				color: "orange-text-gradient",
 				},
-				{
-				name: "TailWindCSS",
-				color: "pink-text-gradient",
-				},
+				
 			],
-			image: bank,
+			image: OldWebPortfolio,
 			source_code_link: "https://github.com/kharo019/bankModern",
 			visit: "https://bank-modern-nine.vercel.app",
 		},
 		{
 			name: "HooBank",
 			description:
-				"By using React.js && Tailwind CSS, I created a modern UI/UX of a fictional bank. This is my first project using TailWind CSS and seeing the differences of using purely React and TailWind has opened my eyes in the different ways a website can be designed.",
+				"By using React.js && Tailwind CSS, I created a modern UI/UX of a fictional bank. This is my first project using TailWind CSS and seeing the differences of using purely React and TailWind has opened my eyes in the different ways a website can be designed. This page has high quality images with gradients, business stats, sections with CTA buttons, and can displayed for all devices with according sizes. ",
 			tags: [
 				{
 				name: "React",
@@ -295,11 +297,11 @@ const experiences = [
 				},
 				{
 				name: "JavaScript",
-				color: "green-text-gradient",
+				color: "orange-text-gradient",
 				},
 				{
 				name: "TailWindCSS",
-				color: "pink-text-gradient",
+				color: "light-blue-text-gradient",
 				},
 			],
 			image: bank,
@@ -311,7 +313,7 @@ const experiences = [
 		{
 		name: "Restaurant Landing Page -- Gerícht",
 		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+			"By using ReactJS and JavaScript, I created a fake fine dining landing page. That contains an 'about us', 'menu', 'chef's word', video promotion, 'awards & recognition section', photo gallery, contact section, and custom footer section. This fake restaurant landing page is made for all devices to be displayed according with interactive elemnts within it. ",
 		tags: [
 			{
 			name: "React",
@@ -319,7 +321,7 @@ const experiences = [
 			},
 			{
 			name: "Javascript",
-			color: "green-text-gradient",
+			color: "orange-text-gradient",
 			},
 		],
 		image: restaurant,
@@ -331,7 +333,7 @@ const experiences = [
 		{
 		name: "Clone GPT3",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"This is my first project in properly creating a webpage using React.JS, project contains react-icons, gradients, and CTA buttons. With this project, I learned how to properly start up a React.JS ",
 		tags: [
 			{
 				name: "React",
@@ -339,7 +341,7 @@ const experiences = [
 			},
 			{
 				name: "Javascript",
-				color: "green-text-gradient",
+				color: "orange-text-gradient",
 				},
 			
 			],
@@ -347,6 +349,130 @@ const experiences = [
 			source_code_link: 'https://github.com/kharo019/CloneGPT3',
 			visit: 'https://clonegpt3.vercel.app',
 		},
+
+
+
+
+		{
+			name: "AggieCompiler",
+			description:
+				"This was a Senior team-based project consisting of myself and another member. The project scope is to provide resources to incoming NMSU students as well as provide a system that professors can use for teaching purposes. This project consists of a data structure roadmap, Q&A system, and Admin/user system",
+			tags: [
+				{
+					name: "HTML",
+					color: "light-blue-text-gradient",
+				},
+				{
+					name: "JavaScript",
+					color: "orange-text-gradient",
+				},
+				{
+					name: "CSS",
+					color: "red-text-gradient",
+				},
+				{
+					name: "Python",
+					color: "green-text-gradient",
+				},
+				
+				],
+				image: AggieCompiler,
+				source_code_link: 'https://github.com/sfransis/AggieCompiler',
+				visit: 'https://github.com/sfransis/AggieCompiler',
+		},
+
+
+
+		{
+			name: "ACI (Animal Computation Interaction)",
+			description:
+				"This was a solo project in Visual Programming and the purpose of this object was to be an interactive game with your cat that outputs a wind generator using Pure Data, with the ability to change the frequency of the wind. ",
+			tags: [
+				{
+					name: "python",
+					color: "green-text-gradient",
+				},
+				{
+					name: "pd~ (PureData)",
+					color: "black-gradient",
+					},
+				
+				],
+				image: ACI,
+				source_code_link: 'https://github.com/kharo019/CloneGPT3',
+				visit: 'https://clonegpt3.vercel.app',
+		},
+
+
+
+		
+		{
+			name: "Using spark to cluster a COVID-19 document into 8 clusters using AWS",
+			description:
+				"In my cloud  ",
+			tags: [
+				{
+					name: "AWS",
+					color: "red-text-gradient",
+				},
+				{
+					name: "Python",
+					color: "green-text-gradient",
+					},
+				
+				],
+				image: gpt3,
+				source_code_link: 'https://github.com/kharo019/CloneGPT3',
+				visit: 'https://clonegpt3.vercel.app',
+		},
+
+
+
+		{
+			name: "Scallywags",
+			description:
+				"This was my first team-based project  ",
+			tags: [
+				{
+					name: "HTML",
+					color: "blue-text-gradient",
+				},
+				{
+					name: "Javascript",
+					color: "green-text-gradient",
+					},
+				
+				],
+				image: gpt3,
+				source_code_link: 'https://github.com/kharo019/CloneGPT3',
+				visit: 'https://clonegpt3.vercel.app',
+		},
+
+
+
+
+
+		{
+			name: "Scallywags",
+			description:
+				"This was my first team-based project  ",
+			tags: [
+				{
+					name: "HTML",
+					color: "blue-text-gradient",
+				},
+				{
+					name: "Javascript",
+					color: "green-text-gradient",
+					},
+				
+				],
+				image: gpt3,
+				source_code_link: 'https://github.com/kharo019/CloneGPT3',
+				visit: 'https://clonegpt3.vercel.app',
+		},
+
+
 		];
 
 export { services, technologies, experiences, testimonials, projects };

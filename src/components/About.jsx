@@ -46,9 +46,14 @@ const About = () => {
 		<motion.p
 			variants = {fadeIn("","", 0.1, 1)}
 			className = "mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-			> I'm a skilled software developer with experience in JavaScript,
-			and knowledgeable in frameworks like React, Node.js, and Three.js. I'm a quick adaptable learner who likes to 
-			collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems.
+			>As a recent graduate in Computer Science at New Mexico State University, I am a skilled software developer with a strong foundation in Java, C/C++, and Python and proficient
+			in frameworks such as React, Node.js, and Three.js. My academic background, complemented by hands-on experience, has equipped me to 
+			create innovative and efficient solutions for various technological challenges. I'm a quick adaptable learner who thrives on 
+			collaborating closely with clients to deliver efficient, scalable, and user-friendly solutions that effectively address real-world 
+			problems. Passionate about leveraging cutting-edge technologies, I am committed to building impactful applications that meet the
+			highest standards of quality and user experience.
+
+
 
 		</motion.p>
 

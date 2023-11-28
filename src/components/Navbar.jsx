@@ -6,7 +6,7 @@ import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { job } from '../constants';
 // eslint-disable-next-line no-unused-vars
-import { logoColor,logoWhite,logoBlack,logoNoBackground, KCLogo, menu, close } from '../assets';
+import { logoColor,logoWhite,logoNoBackground, KCLogo, menu, close } from '../assets';
 
 
 
@@ -39,9 +39,9 @@ const Navbar = () => {
 					setActive("");
 					window.scrollTo(0,0);
 				}}>
-					<img src = {KCLogo} alt = "logo" className = "w-9 h-9 object-contain"/>
+					<img src = {logoNoBackground} alt = "logo" className = "w-9 h-9 object-contain"/>
 					<p className = "text-white text-[18px] font-bold cursor-pointer flex">
-						Kevin Casas &nbsp;
+						Kevin Haro &nbsp;
 						<span className = "sm:block hidden">| Web Portfolio</span></p>
 			</Link>
 			<ul className = "list-none hidden sm:flex flex-row gap-10">

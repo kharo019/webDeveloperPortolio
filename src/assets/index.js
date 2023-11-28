@@ -12,6 +12,7 @@ import github from "./github.png";
 import website from "./website.webp";
 import website1 from "./website1.webp";
 
+
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -50,6 +51,9 @@ import tripguide from "./tripguide.png";
 import gpt3 from "./clonegpt3.png";
 import bank from "./hoobank.png";
 import restaurant from "./gericht.png";
+import OldWebPortfolio from "./OldWebPortfolio.png";
+import AggieCompiler from "./AggieCompiler1.png";
+import ACI from "./ACI1.png";
 
 export {
   logoColor,
@@ -93,6 +97,9 @@ export {
   gpt3,
   bank,
   restaurant,
+  OldWebPortfolio,
+  AggieCompiler,
+  ACI,
 
   website,
   website1,
