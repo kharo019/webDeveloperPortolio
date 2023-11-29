@@ -183,6 +183,7 @@ const experiences = [
 		iconBg: "#383E56",
 		date: "October 2021 - March 2023",
 		points: [
+			"Calibrated software for users to be in accordance with the IT system at NMSU",
 			"Linked computers to network and peripheral equipment",
 			"Test and installed equipment for staff such as desktops, laptops, monitors, etc.",
 			"Explained technical information in clear terms to non-technical individuals to promote a better understanding",
@@ -285,8 +286,8 @@ const experiences = [
 				
 			],
 			image: OldWebPortfolio,
-			source_code_link: "https://github.com/kharo019/bankModern",
-			visit: "https://bank-modern-nine.vercel.app",
+			source_code_link: "https://github.com/kharo019/portfolioWebsite",
+			visit: "https://github.com/kharo019/portfolioWebsite",
 		},
 		{
 			name: "HooBank",
