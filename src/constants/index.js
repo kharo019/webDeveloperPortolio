@@ -187,7 +187,7 @@ const experiences = [
 			"Linked computers to network and peripheral equipment",
 			"Test and installed equipment for staff such as desktops, laptops, monitors, etc.",
 			"Explained technical information in clear terms to non-technical individuals to promote a better understanding",
-			"•	Worked with other departments specifically diversity programs to help their technical issues/setups.",
+			"Worked with other departments specifically diversity programs to help their technical issues/setups.",
 		],
 	},
 	// Start comment here!!
