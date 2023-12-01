@@ -356,60 +356,60 @@ const experiences = [
 
 
 
-		{
-			name: "AggieCompiler",
-			description:
-				"This was a Senior team-based project consisting of myself and another member. The project scope is to provide resources to incoming NMSU students as well as provide a system that professors can use for teaching purposes. This project consists of a data structure roadmap, Q&A system, and Admin/user system. [No website, just code source]",
-			tags: [
-				{
-					name: "HTML",
-					color: "light-blue-text-gradient",
-				},
-				{
-					name: "JavaScript",
-					color: "orange-text-gradient",
-				},
-				{
-					name: "CSS",
-					color: "red-text-gradient",
-				},
-				{
-					name: "Python",
-					color: "green-text-gradient",
-				},
+		// {
+		// 	name: "AggieCompiler",
+		// 	description:
+		// 		"This was a Senior team-based project consisting of myself and another member. The project scope is to provide resources to incoming NMSU students as well as provide a system that professors can use for teaching purposes. This project consists of a data structure roadmap, Q&A system, and Admin/user system. [No website, just code source]",
+		// 	tags: [
+		// 		{
+		// 			name: "HTML",
+		// 			color: "light-blue-text-gradient",
+		// 		},
+		// 		{
+		// 			name: "JavaScript",
+		// 			color: "orange-text-gradient",
+		// 		},
+		// 		{
+		// 			name: "CSS",
+		// 			color: "red-text-gradient",
+		// 		},
+		// 		{
+		// 			name: "Python",
+		// 			color: "green-text-gradient",
+		// 		},
 				
-				],
-				image: AggieCompiler,
-				source_code_link: 'https://github.com/sfransis/AggieCompiler',
-				visit: 'https://github.com/sfransis/AggieCompiler',
-		},
+		// 		],
+		// 		image: AggieCompiler,
+		// 		source_code_link: 'https://github.com/sfransis/AggieCompiler',
+		// 		visit: 'https://github.com/sfransis/AggieCompiler',
+		// },
 
 
 
-		{
-			name: "ACI (Animal Computation Interaction)",
-			description:
-				"This was a solo project in Visual Programming and the purpose of this object was to be an interactive game with your cat that outputs a wind generator using Pure Data, with the ability to change the frequency of the wind. [No website, just code source]",
-			tags: [
-				{
-					name: "python",
-					color: "green-text-gradient",
-				},
-				{
-					name: "pd~ (PureData)",
-					color: "black-gradient",
-				},
+		// {
+		// 	name: "ACI (Animal Computation Interaction)",
+		// 	description:
+		// 		"This was a solo project in Visual Programming and the purpose of this object was to be an interactive game with your cat that outputs a wind generator using Pure Data, with the ability to change the frequency of the wind. [No website, just code source]",
+		// 	tags: [
+		// 		{
+		// 			name: "python",
+		// 			color: "green-text-gradient",
+		// 		},
+		// 		{
+		// 			name: "pd~ (PureData)",
+		// 			color: "black-gradient",
+		// 		},
 					
-				{
-					name: "TypeScript",
-					color: "light-blue-text-gradient",
-				},
-				],
+		// 		{
+		// 			name: "TypeScript",
+		// 			color: "light-blue-text-gradient",
+		// 		},
+		// 		],
 				
-				image: ACI,
-				source_code_link: 'https://github.com/kharo019/ACI',
-				visit: 'https://github.com/kharo019/ACI',
-		},
+		// 		image: ACI,
+		// 		source_code_link: 'https://github.com/kharo019/ACI',
+		// 		visit: 'https://github.com/kharo019/ACI',
+		// },
 
 
 
