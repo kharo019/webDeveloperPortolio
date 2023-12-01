@@ -55,7 +55,9 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, v
 
 				<div className = "mt-4 flex flex-wrap gap-2">
 					{tags.map((tag) => (
-						<p key = {tag.name} className = {`text-[14px] ${tag.color}`}>
+						<p 
+						key = {`${tag.name}-${tag.name}`} 
+						className = {`text-[14px] ${tag.color}`}>
 							#{tag.name}
 						</p>
 					))}
@@ -80,7 +82,7 @@ const Works = () => {
 
 		<div className = "w-full flex">
 			<motion.p 
-				variants = {fadeIn("", "", )}
+				variants = {fadeIn("", "", 0.1, 1)}
 				className = "mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
 			>
 			The following projects showcase my skills and experience throughout my CS career.
