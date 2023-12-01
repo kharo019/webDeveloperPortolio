@@ -414,79 +414,79 @@ const experiences = [
 
 
 		
-		{
-			name: "Using spark to cluster a COVID-19 document into 8 clusters using AWS",
-			description:
-				"This project involved meticulous data cleaning, focusing on removing noise such as numeric values, special characters, and common stop words. Simultaneously, an AWS architecture was set up, utilizing Amazon EC2 for secure access and Amazon EMR for scalable processing, with Spark serving as the framework for data analysis. This comprehensive approach, combining data cleaning, AWS architecture setup, and Spark processing, demonstrated effective extraction of meaningful insights from the CORD-19 dataset. By effectively combining data cleaning, AWS architecture setup, and Spark processing, the project demonstrates a comprehensive approach to extracting meaningful insights from the COVID-19 dataset. [No website, just code source]",
-			tags: [
-				{
-					name: "AWS",
-					color: "red-text-gradient",
-				},
-				{
-					name: "Python",
-					color: "green-text-gradient",
-				},
+		// {
+		// 	name: "Using spark to cluster a COVID-19 document into 8 clusters using AWS",
+		// 	description:
+		// 		"This project involved meticulous data cleaning, focusing on removing noise such as numeric values, special characters, and common stop words. Simultaneously, an AWS architecture was set up, utilizing Amazon EC2 for secure access and Amazon EMR for scalable processing, with Spark serving as the framework for data analysis. This comprehensive approach, combining data cleaning, AWS architecture setup, and Spark processing, demonstrated effective extraction of meaningful insights from the CORD-19 dataset. By effectively combining data cleaning, AWS architecture setup, and Spark processing, the project demonstrates a comprehensive approach to extracting meaningful insights from the COVID-19 dataset. [No website, just code source]",
+		// 	tags: [
+		// 		{
+		// 			name: "AWS",
+		// 			color: "red-text-gradient",
+		// 		},
+		// 		{
+		// 			name: "Python",
+		// 			color: "green-text-gradient",
+		// 		},
 				
-				],
-				image: AWS,
-				source_code_link: 'https://github.com/kharo019/CloneGPT3',
-				visit: 'https://clonegpt3.vercel.app',
-		},
+		// 		],
+		// 		image: AWS,
+		// 		source_code_link: 'https://github.com/kharo019/CloneGPT3',
+		// 		visit: 'https://clonegpt3.vercel.app',
+		// },
 
 
 
-		{
-			name: "Scallywags",
-			description:
-				"This was my first team-based project, consisted of creating a project website that would have promote workingout in a series of stages of beginner, intermediate, and expert level. It had a calendar, timer, and reminder system to remind the user either when the series of workout was over, or when the user had to start their training series, or on what specific day should the user focus on what muscle group to workout.  [No website, just code source]",
-			tags: [
-				{
-					name: "HTML",
-					color: "blue-text-gradient",
-				},
-				{
-					name: "Javascript",
-					color: "orange-text-gradient",
-				},
-				{
-					name: "Java",
-					color: "orange-text-gradient",
-				},
-				{
-					name: "Python",
-					color: "green-text-gradient",
-				},
+		// {
+		// 	name: "Scallywags",
+		// 	description:
+		// 		"This was my first team-based project, consisted of creating a project website that would have promote workingout in a series of stages of beginner, intermediate, and expert level. It had a calendar, timer, and reminder system to remind the user either when the series of workout was over, or when the user had to start their training series, or on what specific day should the user focus on what muscle group to workout.  [No website, just code source]",
+		// 	tags: [
+		// 		{
+		// 			name: "HTML",
+		// 			color: "blue-text-gradient",
+		// 		},
+		// 		{
+		// 			name: "Javascript",
+		// 			color: "orange-text-gradient",
+		// 		},
+		// 		{
+		// 			name: "Java",
+		// 			color: "orange-text-gradient",
+		// 		},
+		// 		{
+		// 			name: "Python",
+		// 			color: "green-text-gradient",
+		// 		},
 				
-				],
-				image: Scallywags,
-				source_code_link: 'https://github.com/kharo019/Scallywags/tree/main',
-				visit: 'https://github.com/kharo019/Scallywags/tree/main',
-		},
+		// 		],
+		// 		image: Scallywags,
+		// 		source_code_link: 'https://github.com/kharo019/Scallywags/tree/main',
+		// 		visit: 'https://github.com/kharo019/Scallywags/tree/main',
+		// },
 
 
 
 
 
-		{
-			name: "Database-Hospital && School",
-			description:
-				"This was a solo project about administering multiple fictional data points about a hospital. The goal was to practice with mySQL, queries, and manipulating data across the database. Having to take care of edge cases especially with Primary Keys and Foreign Keys via command line.     [No website, just code source]",
-			tags: [
-				{
-					name: "python",
-					color: "green-text-gradient",
-				},
-				{
-					name: "mySQL",
-					color: "pink-text-gradient",
-					},
+		// {
+		// 	name: "Database-Hospital && School",
+		// 	description:
+		// 		"This was a solo project about administering multiple fictional data points about a hospital. The goal was to practice with mySQL, queries, and manipulating data across the database. Having to take care of edge cases especially with Primary Keys and Foreign Keys via command line.     [No website, just code source]",
+		// 	tags: [
+		// 		{
+		// 			name: "python",
+		// 			color: "green-text-gradient",
+		// 		},
+		// 		{
+		// 			name: "mySQL",
+		// 			color: "pink-text-gradient",
+		// 			},
 				
-				],
-				image: DB,
-				source_code_link: 'https://github.com/kharo019/Hospital-Database',
-				visit: 'https://github.com/kharo019/Hospital-Database',
-		},
+		// 		],
+		// 		image: DB,
+		// 		source_code_link: 'https://github.com/kharo019/Hospital-Database',
+		// 		visit: 'https://github.com/kharo019/Hospital-Database',
+		// },
 
 
 		];
