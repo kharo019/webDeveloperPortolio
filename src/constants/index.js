@@ -34,6 +34,7 @@
 		jobit,
 		tripguide,
 		gpt3,
+		gpt3_1,
 		restaurant,
 		bank,
 		OldWebPortfolio,
@@ -42,10 +43,12 @@
 		Scallywags,
 		AWS,
 		DB,
+		Database,
 
 		website,
 
 		threejs,
+		github,
 	} from "../assets";
 
 
@@ -136,10 +139,10 @@
 			name: "Node JS",
 			icon: nodejs,
 		},
-		{
-			name: "Three JS",
-			icon: threejs,
-		},
+		// {
+		// 	name: "Three JS",
+		// 	icon: threejs,
+		// },
 		{
 			name: "Java",
 			icon: java,
@@ -177,7 +180,7 @@
 
 const experiences = [
 	{
-		title: "Computer Tech ",
+		title: "Computer Tech",
 		company_name: "NMSU",
 		icon: NMSU1,
 		iconBg: "#383E56",
@@ -270,29 +273,29 @@ const experiences = [
 
 
 	const projects = [
-		{
-			name: "Old Web Developer Protofolio",
-			description:
-				"By using React.js && JavaScript, I created a portoflio as my resume and to put my web developing skills to the test. This is an unfinished project as I didn't like the very little innovation I put in and decided to make another with a 3-D twist on my web developer portfolio.",
-			tags: [
-				{
-				name: "React",
-				color: "blue-text-gradient",
-				},
-				{
-				name: "JavaScript",
-				color: "orange-text-gradient",
-				},
+		// {
+		// 	name: "Old Web Developer Protofolio",
+		// 	description:
+		// 		"By using React.js && JavaScript, I created a portoflio as my resume and to put my web developing skills to the test. This is an unfinished project as I didn't like the very little innovation I put in and decided to make another with a 3-D twist on my web developer portfolio.",
+		// 	tags: [
+		// 		{
+		// 		name: "React",
+		// 		color: "blue-text-gradient",
+		// 		},
+		// 		{
+		// 		name: "JavaScript",
+		// 		color: "orange-text-gradient",
+		// 		},
 				
-			],
-			image: OldWebPortfolio,
-			source_code_link: "https://github.com/kharo019/portfolioWebsite",
-			visit: "https://github.com/kharo019/portfolioWebsite",
-		},
+		// 	],
+		// 	image: OldWebPortfolio,
+		// 	source_code_link: "https://github.com/kharo019/portfolioWebsite",
+		// 	visit: "https://github.com/kharo019/portfolioWebsite",
+		// },
 		{
 			name: "HooBank",
 			description:
-				"By using React.js && Tailwind CSS, I created a modern UI/UX of a fictional bank. This is my first project using TailWind CSS and seeing the differences of using purely React and TailWind has opened my eyes in the different ways a website can be designed. This page has high quality images with gradients, business stats, sections with CTA buttons, and can displayed for all devices with according sizes. ",
+				"I crafted a contemporary UI/UX design for a fictional bank using React.js and Tailwind CSS. This project marked my introduction to Tailwind CSS, revealing the distinct design possibilities when combining React and Tailwind. The page features premium imagery, gradients, business statistics, sections with call-to-action buttons, and responsive display for various devices.",
 			tags: [
 				{
 				name: "React",
@@ -312,46 +315,45 @@ const experiences = [
 			visit: "https://bank-modern-nine.vercel.app",
 		},
 
-
+		
 		{
-		name: "Restaurant Landing Page -- Gerícht",
-		description:
-			"By using ReactJS and JavaScript, I created a fake fine dining landing page. That contains an 'about us', 'menu', 'chef's word', video promotion, 'awards & recognition section', photo gallery, contact section, and custom footer section. This fake restaurant landing page is made for all devices to be displayed according with interactive elemnts within it. ",
-		tags: [
-			{
-			name: "React",
-			color: "blue-text-gradient",
-			},
-			{
-			name: "Javascript",
-			color: "orange-text-gradient",
-			},
-		],
-		image: restaurant,
-		source_code_link: 'https://github.com/kharo019/fine-dining-app',
-		visit: 'https://fine-dining-app.vercel.app',
-		},
-
-
-		{
-		name: "Clone GPT3",
-		description:
-			"This is my first project in properly creating a webpage using React.JS, project contains react-icons, gradients, and CTA buttons. With this project, I learned how to properly start up a React.JS and administer properly web files that is easily accessible and user-friendly if working with a team can be easily integrated.",
-		tags: [
-			{
+			name: "Landing Page -- Gerícht",
+			description:
+				"I developed a ReactJS and JavaScript-based mock fine dining landing page, featuring sections such as 'about us,' 'menu,' 'chef's word,' video promotion, 'awards & recognition,' photo gallery, contact, and a custom footer. The page is designed for optimal display on all devices, incorporating interactive elements for enhanced user engagement.",
+			tags: [
+				{
 				name: "React",
 				color: "blue-text-gradient",
-			},
-			{
+				},
+				{
+				name: "JavaScript",
+				color: "orange-text-gradient",
+				},
+			],
+			image: restaurant,
+			source_code_link: "https://github.com/kharo019/fine-dining-app",
+			visit: "https://fine-dining-app.vercel.app",
+		},
+
+		{
+			name: "Clone GPT3",
+			description:
+				"I successfully initiated my journey in building webpages with React.js through my first project. The project incorporates essential elements such as react-icons, gradients, and call-to-action buttons. This experience equipped me with the skills to proficiently launch a React.js project, manage web files effectively, and ensure seamless collaboration within a team environment.",
+			tags: [
+				{
+					name: "React",
+					color: "blue-text-gradient",
+				},
+				{
 				name: "Javascript",
 				color: "orange-text-gradient",
 				},
-			
 			],
-			image: gpt3,
-			source_code_link: 'https://github.com/kharo019/CloneGPT3',
-			visit: 'https://clonegpt3.vercel.app',
+			image: gpt3_1,
+			source_code_link: "https://github.com/kharo019/CloneGPT3",
+			visit: "https://clonegpt3.vercel.app",
 		},
+
 
 
 
@@ -377,14 +379,11 @@ const experiences = [
 					name: "Python",
 					color: "green-text-gradient",
 				},
-				
-				],
+			],
 				image: AggieCompiler,
 				source_code_link: 'https://github.com/sfransis/AggieCompiler',
 				visit: 'https://github.com/sfransis/AggieCompiler',
 		},
-
-
 
 		{
 			name: "ACI (Animal Computation Interaction)",
@@ -409,11 +408,8 @@ const experiences = [
 				image: ACI,
 				source_code_link: 'https://github.com/kharo019/ACI',
 				visit: 'https://github.com/kharo019/ACI',
-		},
+		},	
 
-
-
-		
 		{
 			name: "Using spark to cluster a COVID-19 document into 8 clusters using AWS",
 			description:
@@ -427,13 +423,11 @@ const experiences = [
 					name: "Python",
 					color: "green-text-gradient",
 				},
-				
 				],
 				image: AWS,
 				source_code_link: 'https://github.com/kharo019/CloneGPT3',
 				visit: 'https://clonegpt3.vercel.app',
 		},
-
 
 
 		{
@@ -467,9 +461,9 @@ const experiences = [
 
 
 		{
-			name: "Database-Hospital && School",
+			name: "Database-Hospital & School",
 			description:
-				"This was a solo project about administering multiple fictional data points about a hospital. The goal was to practice with mySQL, queries, and manipulating data across the database. Having to take care of edge cases especially with Primary Keys and Foreign Keys via command line.     [No website, just code source]",
+				"This was a solo project about administering multiple fictional data points about a hospital. The goal was to practice with mySQL, queries, and manipulating data across the database. Having to take care of edge cases especially with Primary Keys and Foreign Keys via command line.  [No website, just code source]",
 			tags: [
 				{
 					name: "python",
@@ -481,7 +475,7 @@ const experiences = [
 					},
 				
 				],
-				image: DB,
+				image: Database,
 				source_code_link: 'https://github.com/kharo019/Hospital-Database',
 				visit: 'https://github.com/kharo019/Hospital-Database',
 		},

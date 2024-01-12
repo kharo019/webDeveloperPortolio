@@ -49,13 +49,15 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import gpt3 from "./clonegpt3.png";
+import gpt3 from "./gpt3.png";
+import gpt3_1 from "./clonegpt3.png";
 import bank from "./hoobank.png";
 import restaurant from "./gericht.png";
 import OldWebPortfolio from "./OldWebPortfolio.png";
 import AggieCompiler from "./AggieCompiler1.png";
 import ACI from "./ACI1.png";
 import DB from "./database.webp";
+import Database from "./database.png";
 
 export {
   logoColor,
@@ -96,6 +98,7 @@ export {
   tesla,
 
   gpt3,
+  gpt3_1,
   bank,
   restaurant,
   OldWebPortfolio,
@@ -103,6 +106,7 @@ export {
   ACI,
   AWS,
   DB,
+  Database,
 
   website,
   website1,

@@ -1,10 +1,13 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
+import React from 'react';
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
 import { github } from '../assets';
 import { website } from '../assets';
-import { website1 } from '../assets';
+
 
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
@@ -13,80 +16,80 @@ import { fadeIn, textVariant } from '../utils/motion';
 
 
 
+
 const ProjectCard = ({index, name, description, tags, image, source_code_link, visit}) => {
+	console.log('Rendering ProjectCard:', name);
 	return (
-		<motion.div variants = {fadeIn("up", "spring", index * 0.5, 0.75)}>
+		<motion.div variants = {fadeIn("up", "spring", index * 1, 0.75)}>
 			<Tilt
 				options = {{
 					max: 45,
 					scale: 1,
-					speed: 450
+					speed: 450,
 				}}
-				className = "bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full ">
-					<div className = "relative w-full h-[230px]">
+				className = "bg-tertiary p-4 rounded-2xl sm:w-[280px] w-full ">
+					<div className = "relative w-full h-[200px]">
 						<img 
 							src = {image} 
 							alt = {name}
 							className = "w-full h-full object-cover rounded-2xl"
+							style = {{ maxWidth: '100%', maxHeight: '100%' }}
 						/>
 						{/*GitHub and website link icon located top right of projects*/}
 						
 						<div className = "absolute inset-0 flex justify-end m-3 card-img_hover">
-
-						<div
+							<div
 								onClick = {() => window.open(visit, "_blank")}
 								className = "black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
 								<img 
 									src = {website}
-									alt = "github"
+									alt = "website"
 									className = "w-1/2 h-1/2 object-contain"
 								/>
 							</div>		
-
-
 							<div
 								onClick = {() => window.open(source_code_link, "_blank")}
-								className = "black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer sm:w[50px]">
+								className = "black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
 								<img 
 									src = {github}
 									alt = "github"
 									className = "w-1/2 h-1/2 object-contain"
 								/>
 							</div>
-
 						</div>
 					</div>
 
+					<div className = "mt-5">
+						<h3 className = "text-white font-bold text-[24px]"> {name} </h3>
+						<p className = "mt-2 text-secondary text-[14px]"> {description} </p>
+					</div>
 
-
-				<div className = "mt-5">
-					<h3 className = "text-white font-bold text-[24px]"> {name} </h3>
-					<p className = "mt-2 text-secondary text-[14px]"> {description} </p>
-				</div>
-
-				<div className = "mt-4 flex flex-wrap gap-2">
-					{tags.map((tag) => (
-						<p 
-						key = {`${name}-${tag.name}`} 
-						className = {`text-[14px] ${tag.color}`}>
-							#{tag.name}
-						</p>
-					))}
-				</div>
+					<div className = "mt-4 flex flex-wrap gap-2">
+						{tags.map((tag) => (
+							<p 
+								key = {`${name}-${tag.name}`} 
+								className = {`text-[14px] ${tag.color}`}
+							>
+								#{tag.name}
+							</p>
+						))}
+					</div>
 			</Tilt>
 		</motion.div>
-	)
-}
+	);
+};
 
 const Works = () => {
+	console.log('Rendering Works component');
+
   return (
     <>
 		<motion.div variants = {textVariant()}>
-			<p className = {styles.sectionSubText}>
+			<p className = {`${styles.sectionSubText} `}>
 				My work
 			</p>
 
-			<h2 className = {styles.sectionHeadText}>
+			<h2 className = {`${styles.sectionHeadText} `}>
 				Projects.
 			</h2>
 		</motion.div>
@@ -103,14 +106,11 @@ const Works = () => {
 		</div>
 		<div className = "mt-20 flex flex-wrap gap-7">
 			{projects.map((project, index) => (
-				<ProjectCard 
-					key = {`project-${index}`}
-					index = {index}
-					{...project} />
+				<ProjectCard key = {`project-${index}`} index = {index} {...project} />
 			
 			))}
 		</div>
-		</>
+	</>
   );
 };
 

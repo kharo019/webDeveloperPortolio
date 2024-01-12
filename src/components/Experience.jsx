@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable react/prop-types */
+
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -68,7 +69,7 @@ const Experience = () => {
         </h2>
       </motion.div>
 
-      <div className='mt-20 flex flex-col'>
+      <div className='mt-10 flex flex-col sm:w-[360px]'>
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard
